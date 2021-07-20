@@ -22,9 +22,9 @@ Syntax highlighted code block
 2. List
 
 **Bold** and _Italic_ and `Code` text
-
-[Link](https://files.catbox.moe/1lzsln.gif) and ![Image](src)
 ```
+[Link](https://files.catbox.moe/1lzsln.gif) and ![Image](src)
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
