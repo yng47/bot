@@ -1,17 +1,21 @@
+  
 body{
+	background-color: #0e1111;
+}
+
+h1 {
+  color: green;
+  margin-top: 50px;
 }
 
 .container{
-  width: 300px;
-  min-height: 300px;
-  padding: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
   
-  /* position the div in center */
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
