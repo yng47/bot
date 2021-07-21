@@ -1,21 +1,48 @@
+  @font-face {
+  font-family: "Hypertext";
+  src: url("Fixedsys.ttf");
+  }
+  
+  @font-face {
+  font-family: "Typetext";
+  src: url("nyashasans.ttf");
+  }
   
 body{
 	background-color: #0e1111;
 }
 
+a {
+  color: #d82c6c;
+  text-decoration: none
+}
+
 h1 {
-  color: green;
+  font-family: Hypertext;
+  font-weight: 100;
+  font-size: 2em;
+  color: white;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: Typetext;
+  font-weight: 100;
+  font-size: 1.2em;
+  color: white;
   margin-top: 50px;
 }
 
 .container{
+	margin: 0 auto;
+	width: 1280px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
   
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
 }
+
+.boxer{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	}
