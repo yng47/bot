@@ -60,6 +60,15 @@ h2 {
   
 }
 
+.bontainer{
+	margin: 0 auto;
+	width: 720px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+  
+}
+
 .boxer{
 	padding-bottom: 1%;
 	padding-top: 5%;
