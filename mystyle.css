@@ -1,4 +1,4 @@
-  @font-face {
+    @font-face {
   font-family: "Hypertext";
   src: url("Fixedsys.ttf");
   }
@@ -17,12 +17,24 @@ a {
   text-decoration: none
 }
 
+a.cr {
+  color: white;
+  text-decoration: none;
+  font-family: Typetext;
+  font-weight: 100;
+  font-size: 0.8em;
+  color: white;
+  margin-top: 15px;
+  margin-right: 15px;
+
+}
+
 h1 {
   font-family: Hypertext;
   font-weight: 100;
   font-size: 2em;
   color: white;
-  margin-top: 50px;
+  
 }
 
 h2 {
@@ -30,8 +42,14 @@ h2 {
   font-weight: 100;
   font-size: 1.2em;
   color: white;
-  margin-top: 50px;
+  
 }
+
+.text{
+	margin-top: 35px;
+  
+}
+
 
 .container{
 	margin: 0 auto;
@@ -43,6 +61,13 @@ h2 {
 }
 
 .boxer{
-	padding-bottom: 50px;
-	padding-top: 50px;
+	padding-bottom: 1%;
+	padding-top: 5%;
+	}
+	
+.counter{
+	display: flex;
+	text-align: left;
+	justify-content: flex-start;
+	margin-top: 35px;
 	}
