@@ -28,6 +28,8 @@ function addRow() {
 	<a class="cr" href="test19.html">[ 19 ]</a>
 	<a class="cr" href="test20.html">[ 20 ]</a>
 	<a class="cr" href="test21.html">[ 21 ]</a>
+	<a class="cr" href="test22.html">[ 22 ]</a>
+	<a class="cr" href="test23.html">[ 23 ]</a>
 </div>
 </div>
 </div>
